@@ -5,7 +5,7 @@ from optimization_problem import OptimizationProblem
 
 class MultidimensionalSequentialMethod:
 
-    def __init__(self, optimizationProblem, eta=1.5, K=None, minimumIteration=100, maximumIteration=200):
+    def __init__(self, optimizationProblem, eta=1.5, K=None, minimumIteration=3, maximumIteration=5):
 
         assert eta > 1
         
